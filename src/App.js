@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from './components/Nav/Navbar';
 import Main from './components/Main/Main';
-import MyParallax from './components/parallax/MyParallax';
+import About from './components/about/About';
+import Portfolio from './components/portfolio/Portfolio';
 import './App.css';
 
 class App extends React.Component {
@@ -10,7 +11,8 @@ class App extends React.Component {
       <div className="portfolio-landing-page">
           <Navbar />   
           <Main />                     
-          <MyParallax />
+          <About />
+          <Portfolio />
       </div>
     );
   }
