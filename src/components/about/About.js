@@ -11,6 +11,7 @@ const About = () => (
         bgImageAlt="the dog"
         strength={200}
       >
+      <div style={{ height: '100px' }} />
       <div className="content">
       <header>
       <h1>About</h1>
@@ -25,7 +26,12 @@ const About = () => (
           My favorite stack right now is React.js on the frontend and Node.js/MongoDB on the backend.
           I have also worked with Java, MySQL and Laravel(PHP)
       </p>
+      <div className="container_icons">
+              <i class="fab fa-github fa-3x"></i> 
+              <i class="fab fa-linkedin fa-3x"></i> 
+        </div>
       </div>
+      
       </Parallax>
     </div>
   );

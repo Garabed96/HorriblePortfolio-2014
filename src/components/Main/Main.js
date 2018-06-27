@@ -16,7 +16,7 @@ class Main extends React.Component {
         bgImageAlt="main image"
         strength={200}
       >
-        <div style={{ height: '200px' }} />
+        <div style={{ height: '100px' }} />
         <div className="container">  
         <Particles 
           style={{
@@ -88,10 +88,6 @@ class Main extends React.Component {
               Front End Developer | Computer Science
               Major | Location Toronto, ON.
           </div> 
-          <div className="container_icons">
-              <i class="fab fa-github fa-3x"></i> 
-              <i class="fab fa-linkedin fa-3x"></i> 
-        </div>
         </div>
           </Parallax>
       </div>

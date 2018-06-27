@@ -11,7 +11,12 @@ const Portfolio = () => (
         bgImageAlt="the dog"
         strength={200}
       >
-        <div style={{ height: '800px' }} />
+        <div style={{ height: '100px' }} />
+        <div className="portfolio">
+        <header>
+        <h1>Portfolio</h1>
+        </header>
+      </div>
       </Parallax>
     </div>
   );

@@ -24,19 +24,6 @@
     padding-bottom: 1rem; 
 }
 
-.container_icons{
-    color: aliceblue;
-    flex-direction: unset;
-}
-
-.container_icons > *:hover{
-    cursor: pointer;
-}
-
-.fa-github{
-    padding-right: 1rem;
-}
-
 /* hr {
     display: block;
     height: 1px;
