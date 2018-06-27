@@ -1,5 +1,6 @@
 import React from 'react'
 import { Parallax, Background } from 'react-parallax';
+import './style.css';
 
 const Portfolio = () => (
     <div>
@@ -10,7 +11,7 @@ const Portfolio = () => (
         bgImageAlt="the dog"
         strength={200}
       >
-        <div style={{ height: '400px' }} />
+        <div style={{ height: '800px' }} />
       </Parallax>
     </div>
   );

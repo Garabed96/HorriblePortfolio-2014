@@ -26,7 +26,6 @@ class Main extends React.Component {
             right: 0,
             bottom: 0,
           }}
-
           params={{
             number: {
               value: 60, 
@@ -35,7 +34,7 @@ class Main extends React.Component {
                 value_area: 800
               },
               line_linked: {
-                enable: true,
+                enable: false,
                 distance: 150,
                 color: "#ffffff",
                 opacity: 0.4,
@@ -79,19 +78,15 @@ class Main extends React.Component {
               }
             },
             "retina_detect": true
-
           }}
-        
-        
         />
-       
           <div className="container_title"> 
                 Hello, I'm Garo! 
           </div>
               
           <div className="container_text">    
-              I am a Front End Developer / Computer Science
-              student living in Toronto, ON.
+              Front End Developer | Computer Science
+              Major | Location Toronto, ON.
           </div> 
           <div className="container_icons">
               <i class="fab fa-github fa-3x"></i> 
