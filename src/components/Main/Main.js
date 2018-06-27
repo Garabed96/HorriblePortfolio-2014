@@ -1,6 +1,25 @@
 import React from 'react';
 import './style.css';
 import { Parallax, Background } from 'react-parallax';
+import Particles from 'react-particles-js';
+
+
+const particleOpt = {
+  particles: {
+    number: {
+      value: 60, 
+      density: {
+        enable: true, 
+        value_area: 800
+      }
+    },
+    color: {
+      value: "#ffffff", 
+    }, 
+  }
+}
+
+{/* <Particles param={particleOpt} /> */}
 
 class Main extends React.Component {
   render() {
@@ -12,13 +31,12 @@ class Main extends React.Component {
         bgImageAlt="main image"
         strength={200}
       >
-        Put some text content here
-        or even an empty div with fixed dimensions
-        to have a height for the parallax.
         <div style={{ height: '200px' }} />
-        <div className="container"> 
-        <div className="container_title"> 
-              Hello, I'm Garo! 
+        <div className="container">  
+        <Particles param={particleOpt} />
+       
+          <div className="container_title"> 
+                Hello, I'm Garo! 
           </div>
               
           <div className="container_text">    
@@ -28,7 +46,7 @@ class Main extends React.Component {
           <div className="container_icons">
               <i class="fab fa-github fa-3x"></i> 
               <i class="fab fa-linkedin fa-3x"></i> 
-          </div>
+        </div>
         </div>
           </Parallax>
       </div>

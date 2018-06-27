@@ -9,8 +9,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="portfolio-landing-page">
-          <Navbar />   
-          <Main />                     
+          <Navbar />
+          <Main />                                                
           <About />
           <Portfolio />
       </div>

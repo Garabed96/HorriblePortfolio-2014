@@ -10,7 +10,6 @@ const Portfolio = () => (
         bgImageAlt="the dog"
         strength={200}
       >
-        Blur transition from min to max
         <div style={{ height: '400px' }} />
       </Parallax>
     </div>
