@@ -1,0 +1,30 @@
+.container {
+  height: 100%; 
+  display: flex; 
+  flex-flow: row nowrap;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu {
+    margin-right: 1rem;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    color: aliceblue;
+}
+
+.menu > * {
+  padding: 2rem 0;
+  margin: 0 6rem;
+  font-size: 1.25rem;
+  font-weight: 450;
+  border-bottom: 2px solid transparent;
+
+}
+
+.menu > *:hover {
+  cursor: pointer;
+}
