@@ -19,7 +19,7 @@ const About = () => (
       <p>I enjoy programming in react and everything web</p>  
       <p> 
         My goal with building this site was to solidify my foundation in React. 
-        I achieved this by using minimal UI Libraries and no framework and had fun throughout the 
+        I achieved this by using minimal UI Libraries or frameworks and had fun throughout the 
         process.
       </p>
       <p>

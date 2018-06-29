@@ -85,7 +85,7 @@ class Main extends React.Component {
           </div>
               
           <div className="container_text">    
-              Front End Developer | Computer Science
+              Software Developer | Computer Science
               Major | Location Toronto, ON.
           </div> 
         </div>
