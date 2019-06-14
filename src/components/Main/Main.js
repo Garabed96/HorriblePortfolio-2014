@@ -1,0 +1,75 @@
+import React from 'react';
+import './style.css';
+import { Link, animateScroll as scroll } from "react-scroll";
+import { Icon, Header } from 'semantic-ui-react';
+import { Parallax, Background } from 'react-parallax';
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
+class Main extends React.Component {
+  constructor(props){
+    super(props);
+  }
+
+
+  render() {
+    return (
+
+      <div className="main">
+          <Parallax
+              blur={1.5}
+              bgImage={require('../../images/mainimg.jpg')}
+              bgImageAlt="the dog"
+              strength={200}
+          >
+        <div style={{ height: '100px' }} />
+        <div className="container">
+
+        <div className="containingAllText">
+          <div className="container_title"> 
+                Garo Nazarian 
+          </div>
+              
+          <div className="container_text">  
+            <ul className="containertextInfo">
+            <li>
+                Software Developer
+              </li>
+              <li className="homeSpacing">
+                Computer Science Major
+              </li>
+              <li className="homeSpacing">
+                Location Toronto, ON.
+              </li>
+            </ul>
+          </div> 
+          </div>
+          
+        </div>
+                  {/* <img id="alignIcon" src={require("./../../images/arrowDown.svg")}/> */}
+
+          <i  id="alignIcon">
+          <div>
+          </div>
+              <Link 
+                activeClass="active"
+                to="About"
+                spy={true}
+                smooth={true}
+                offset={70}
+                duration={700}
+              >
+                  <FontAwesomeIcon icon={faArrowDown} className="fa-2x" />
+              </Link>   
+          </i>
+            {/*No documents are listed for this customer.*/}
+
+      </Parallax>
+
+      </div>
+    );
+  }
+}
+
+export default Main;

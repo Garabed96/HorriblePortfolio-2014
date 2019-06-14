@@ -1,0 +1,83 @@
+.container {
+  min-height: 70vh;
+  /* display: flex; */
+  /* flex:auto; */
+  /* flex-direction: column; */
+  padding: 1.25rem 3.5rem 2rem;
+  /* text-align: center; */
+  
+}
+.hithere{
+    background-color: white;
+}
+
+.containingAllText{
+    display: grid;
+    position: relative;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 800;
+    font-size:  4rem; 
+    color: aliceblue;
+}
+
+.containertextInfo{
+    background-color: transparent;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size:  1.5rem; 
+    color: aliceblue;
+    display: grid;
+    padding:10px;
+}
+
+.homeSpacing{
+    margin-top: 0.5em;
+}
+
+.iconMainBot{
+    /* color: aliceblue; */
+    width:100%;
+    height: 100%;
+}
+
+#alignIcon{
+    color:white;
+	padding-bottom: 1.9em;
+	display: inline-block;
+	position: relative;
+	border-color: white;
+	text-decoration: none;
+	transition: .3s ease-out;
+
+
+}
+
+.okok{
+    padding:10px;
+}
+.iconMainBot{
+    color:white;
+    text-align: center;
+}
+
+#alignIcon{
+	transition: transform .25s;
+}
+
+#alignIcon:hover{
+	transform: scale(1.2);
+}
+
+
+/* hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+} */
+
+

@@ -1,0 +1,184 @@
+/* .portfolio{
+    color: black;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding: 0 2rem 0 1rem;
+
+}
+   */
+/* #footer {
+	position:absolute;
+	bottom:5;
+	width:100%;
+	height:60px;   
+} */
+
+
+
+.to-top:before{
+	content:'^';
+	font-size:2em;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-.7em;
+	border:solid .13em white;
+	border-radius:10em;
+	width:1.4em;
+	height:1.4em;
+	line-height:1.3em;
+	border-color:inherit;
+	transition:transform .7s ease-in;
+}
+
+.to-top:hover {
+	color:royalblue;
+	border-color: blueviolet;
+}
+
+.to-top:hover:before {
+	transform: rotate(360deg);
+}
+
+#toTawpMarg{
+	margin-top: 30px;
+}
+
+.to-top{
+	
+	color:white;
+	padding-top: 1.9em;
+	display: inline-block;
+	position: relative;
+	border-color: white;
+	text-decoration: none;
+	transition: .7s ease-out;
+
+}
+
+ #footer {
+	position: relative;
+	vertical-align: middle;
+	bottom: 10px;
+	width:100.1%;
+	scroll-behavior: smooth;
+} 
+
+#portfolioBody{
+	border:0;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-family: big john;
+	width: 100%;
+	height: 50vh;
+}
+
+#webmot {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-right: 2em;
+	margin-left: 2em;
+	font-size: 10px;
+	height: 50em;
+	width: 30em;
+	padding: 8px 24px;
+	border-radius: 16px;
+	background:#eee;
+	padding: 8px 24px;
+	border-radius: 16px;
+	transition: transform .25s;
+}
+
+#webmot:hover{
+	transform: scale(1.2);
+}
+
+#portPg{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-right: 2em;
+	margin-left: 2em;
+	font-size: 10px;
+	height: 50em;
+	width: 30em;
+	padding: 8px 24px;
+	border-radius: 16px;
+	background:#eee;
+	padding: 8px 24px;
+	border-radius: 16px;
+	transition: transform .25s;
+}
+
+#portPg:hover{
+	transform: scale(1.2);
+}
+
+#thirdThing{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-right: 2em;
+	margin-left: 2em;
+	font-size: 10px;
+	height: 50em;
+	width: 30em;
+	padding: 8px 24px;
+	border-radius: 16px;
+	background:#eee;
+	padding: 8px 24px;
+	border-radius: 16px;
+	transition: transform .25s;
+}
+
+#thirdThing:hover{
+	transform: scale(1.2);
+}
+
+#cardID{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 10px;
+	background-color: aqua;
+	height: 95%; 
+	border-radius: 16px;
+}
+#cardID2{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 10px;
+	background-color: aqua;
+	height: 95%; 
+	border-radius: 16px;
+}
+
+#cardID3{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 10px;
+	background-color: aqua;
+	height: 95%; 
+	border-radius: 16px;
+}
+
+
+.card>.Content{
+                        height:auto; 
+}  m
+
+.card>.Image{
+	max-width:100%; 
+	min-width: min-content;
+	height:auto;
+}
+
