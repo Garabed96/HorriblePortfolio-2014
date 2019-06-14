@@ -3,6 +3,9 @@ import React, { Component, Fragment } from 'react'
 import { Parallax, Background } from 'react-parallax';
 import { Button, Card, Divider, Image, Placeholder, Segment, Grid, Icon, Item } from 'semantic-ui-react';
 import { Link, animateScroll as scroll } from "react-scroll";
+import WebmotiCard from '../portfolioCards/WebmotiCard';
+import ThieveryCard from '../portfolioCards/ThieveryCard';
+import PortfolioProject from '../portfolioCards/PortfolioProject';
 
 import './style.css';
 
@@ -46,7 +49,26 @@ class Portfolio extends Component{
               <div className="portfolio">
               <header>
               <h1>Portfolio</h1>
+
+
+
               </header>
+                  <div class="container">
+                      <div class="item">
+                          <WebmotiCard />
+
+                      </div>
+                      <div class="item">
+                          <ThieveryCard />
+
+                      </div>
+                      <div class="item">
+                      <PortfolioProject />
+
+                  </div>
+                  </div>
+
+
                 <Grid container spacing={24}>
                   <div id="portfolioBody">
                   <Grid item xs>
@@ -84,7 +106,9 @@ class Portfolio extends Component{
                     </div>
                     </Grid>
                   </div>
-                </Grid>                    
+                </Grid>
+
+
               <div id="footer">
                 <div>
                   <Link

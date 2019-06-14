@@ -27,11 +27,8 @@ class About extends Component{
                 strength={200}
             >
                 <div style={{ height: '100px' }} />
-                <div className="content">
                     <header>
                         <i  id="alignIcon">
-                            <div>
-                            </div>
                             <Link
                                 to="Main"
                                 spy={true}
@@ -46,25 +43,26 @@ class About extends Component{
                             </Link>
                         </i>
 
-                        <h1>About</h1>
                     </header>
-                    <p>My name is Garo. Since beginning my journey as a software engineer nearly 5 years ago, I've done contract work for engineering firm, and collaborated
+
+                <div className="content">
+                    <h1 id="centerMe">About</h1>
+                    <p id="centerMe">
+                        My name is Garo. Since beginning my journey as a software engineer nearly 5 years ago, I've done contract work for engineering firm, and collaborated
                         with talented people to create a product for consumer use.</p>
-                    <p>
+                    <p id="centerMe">
                         I'm a naturally curious individal, quick learner and always improving.
                     </p>
-                    <p>
-
-                    </p>
-                    <p>
+                    <p id="centerMe">
                         Currently I am working as a Software Developer at Ryerson University, we have built a robot with an video chat and voice call system
                         which helps students with disablilites learn while not able to attend class.
-                    </p>
+                    </p> <br/>
                     <div className="container_icons">
                         <a target="_blank" href="https://www.github.com/Garabed96" > <i className="fab fa-github fa-3x"></i> </a>
                         <a target="_blank" href="https://www.linkedin.com/in/garo-nazarian-712330119/" > <i className="fab fa-linkedin fa-3x"></i> </a>
                     </div>
                 </div>
+
                 <i  id="alignIcon">
                     <div>
                     </div>

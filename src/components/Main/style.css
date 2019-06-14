@@ -19,9 +19,11 @@
     font-weight: 800;
     font-size:  4rem; 
     color: aliceblue;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-.containertextInfo{
+.container_text{
     background-color: transparent;
     font-family: 'Lora';
     font-style: normal;
@@ -30,6 +32,15 @@
     color: aliceblue;
     display: grid;
     padding:10px;
+    position:relative;
+    -ms-transform: translateY(200%);
+    transform: translateY(350%);
+}
+
+.container_title{
+    background-color: transparent;
+    -ms-transform: translateY(400%);
+    transform: translateY(600%);
 }
 
 .homeSpacing{

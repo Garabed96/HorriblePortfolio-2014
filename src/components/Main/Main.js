@@ -27,25 +27,23 @@ class Main extends React.Component {
         <div className="container">
 
         <div className="containingAllText">
-          <div className="container_title"> 
-                Garo Nazarian 
-          </div>
+              <ul className="container_title">
+                    Garo Nazarian
+              </ul>
               
-          <div className="container_text">  
-            <ul className="containertextInfo">
-            <li>
-                Software Developer
-              </li>
-              <li className="homeSpacing">
-                Computer Science Major
-              </li>
-              <li className="homeSpacing">
-                Location Toronto, ON.
-              </li>
-            </ul>
-          </div> 
-          </div>
-          
+              <ul className="container_text">
+                    <li>
+                        Software Developer
+                      </li>
+                      <li className="homeSpacing">
+                        Computer Science Major
+                      </li>
+                      <li className="homeSpacing">
+                        Location Toronto, ON.
+                      </li>
+              </ul>
+        </div>
+
         </div>
                   {/* <img id="alignIcon" src={require("./../../images/arrowDown.svg")}/> */}
 
