@@ -1,37 +1,48 @@
+html {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
 p {
     color: rgb(201, 193, 193);
     font-family: "Times New Roman", Times, serif;
-    font-weight: 450;
+    font-weight: 400;
     font-size: 1.5rem;
 }
 
 .content{
+    padding: 20px;
+    text-align: center;
     color: rgb(201, 193, 193);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    justify-content: center;
-    padding: 0 2rem 0 1rem;
-    box-sizing:border-box
+    min-height: 90vh;
 }
 
-h1{ 
+#centerMe{
+
+}
+/* h1{ 
     display:inline-block;
     margin-left:6em;  
     
-}
+} */
 
-p{
-    margin-top:0.5em;
-    margin-left:8em;  
-}
+ /*p{*/
+    /*margin-bottom:0.5em;*/
+/*} */
 
+ /*.myAboutPage{*/
+     /*margin: auto;*/
 
-.container_icons{
-    color: rgb(201, 193, 193);
-    text-align: center;
+ /*}*/
 
+a{
+    text-decoration:none;
+    color:inherit;
 }
 
 .container_icons > *:hover{
@@ -39,5 +50,17 @@ p{
 }
 
 .fa-github{
-    padding-right: 1rem;
+    padding-right: 1.5rem;
 }
+
+/* .About{
+    color: black;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding: 0 2rem 0 1rem;
+
+} */
+
+

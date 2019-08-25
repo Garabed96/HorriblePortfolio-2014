@@ -1,0 +1,25 @@
+.footer {
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    padding: 2em;
+    color: grey;
+    text-align: left;
+  }
+
+.inc{
+    font-size: 1em;
+}
+
+.centerContact{
+    display: flex;
+    justify-content: center;
+}
+
+.decMe{
+    font-size: 1.4em;
+}
+
+.decMe:hover{
+    text-decoration: underline;
+}

@@ -1,95 +1,70 @@
 import React from 'react';
 import './style.css';
+import { Link, animateScroll as scroll } from "react-scroll";
+import { Icon, Header } from 'semantic-ui-react';
 import { Parallax, Background } from 'react-parallax';
-import Particles from 'react-particles-js';
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-
-{/* <Particles param={particleOpt} /> */}
 
 class Main extends React.Component {
+  constructor(props){
+    super(props);
+  }
+
+
   render() {
     return (
-      <div>
-      <Parallax
-        blur={0}
-        bgImage={require('../../images/atlas.jpg')}
-        bgImageAlt="main image"
-        strength={200}
-      >
+
+      <div className="main">
+          <Parallax
+              blur={1}
+              bgImage={require('../../images/mainimg.jpg')}
+              bgImageAlt="the dog"
+              strength={200}
+          >
         <div style={{ height: '100px' }} />
-        <div className="container">  
-        <Particles 
-          style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-          }}
-          params={{
-            number: {
-              value: 60, 
-              density: {
-                enable: true, 
-                value_area: 800
-              },
-              line_linked: {
-                enable: false,
-                distance: 150,
-                color: "#ffffff",
-                opacity: 0.4,
-                width: 1
-              },
-            }, 
-            "shape": {
-              "type": "circle",
-              "stroke": {
-                "width": 0,
-                "color": "#000000"
-              },
-              polygon: {
-                nb_sides: 7
-              }
-            },
-            "interactivity": {
-              "detect_on": "canvas",
-              "events": {
-                "onhover": {
-                  "enable": true,
-                  "mode": "grab"
-                },
-                "onclick": {
-                  "enable": true,
-                  "mode": "push"
-                },
-                "resize": true
-              },
-              "modes": {
-                "grab": {
-                  "distance": 400,
-                  "line_linked": {
-                    "opacity": 1
-                  }
-                },
-                "repulse": {
-                  "distance": 200,
-                  "duration": 0.4
-                }
-              }
-            },
-            "retina_detect": true
-          }}
-        />
-          <div className="container_title"> 
-                Hello, I'm Garo! 
-          </div>
+        <div className="container">
+
+        <div className="containingAllText">
+              <ul className="container_title">
+                    Garo Nazarian
+              </ul>
               
-          <div className="container_text">    
-              Software Developer | Computer Science
-              Major | Location Toronto, ON.
-          </div> 
+              <div className="container_text">
+                      <ul className="homeSpacing">
+                        Software Developer
+                      </ul>
+                      <ul className="homeSpacing">
+                        Computer Science Major
+                      </ul>
+                      <ul className="homeSpacing">
+                        Location Toronto, ON.
+                      </ul>
+              </div>
         </div>
-          </Parallax>
+
+        </div>
+                  {/* <img id="alignIcon" src={require("./../../images/arrowDown.svg")}/> */}
+
+          <div id="alignIcon">
+          <div>
+          </div>
+              <Link 
+                activeClass="active"
+                to="About"
+                spy={true}
+                smooth={true}
+                offset={70}
+                duration={700}
+              >
+                  <FontAwesomeIcon id="arrows" icon={faArrowDown} className="fa-2x arrows" />
+              </Link>   
+          </div>
+            {/*No documents are listed for this customer.*/}
+
+      </Parallax>
+
       </div>
     );
   }
